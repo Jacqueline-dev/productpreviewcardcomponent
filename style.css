@@ -11,3 +11,16 @@ body{
     font-family: "Montserrat", sans-serif;
     color: hsl(228, 12%, 48%);
 }
+
+h1{
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 32px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
