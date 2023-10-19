@@ -24,3 +24,86 @@ main{
     justify-content: center;
     min-height: 100vh;
 }
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 600px;
+}
+
+img {
+    flex: 1 0 50%;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+
+.category {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.product {
+    padding: 35px;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sale-price {
+    font-family: "Fraunces", serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.normal-price {
+    text-decoration: line-through;
+}
+
+button{
+    
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button:hover {
+    background-color: hsl(158, 45%, 20%);
+}
+
+button:active{
+    background-color: hsl(158, 45%, 20%);
+}
+
+.material-symbols-outlined {
+    margin-right: 10px;
+   
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(158, 36%, 37%); 
+}
